@@ -9,11 +9,11 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/leonid-ed/spotify/v2/auth"
+	"github.com/zmb3/spotify/v2/auth"
 	"log"
 	"os"
 
-	"github.com/leonid-ed/spotify/v2"
+	"github.com/zmb3/spotify/v2"
 	"golang.org/x/oauth2/clientcredentials"
 )
 

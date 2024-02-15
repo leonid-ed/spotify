@@ -2,7 +2,7 @@
 Spotify
 =======
 
-[![GoDoc](https://godoc.org/github.com/leonid-ed/spotify?status.svg)](http://godoc.org/github.com/leonid-ed/spotify)
+[![GoDoc](https://godoc.org/github.com/zmb3/spotify?status.svg)](http://godoc.org/github.com/zmb3/spotify)
 
 This is a Go wrapper for working with Spotify's
 [Web API](https://developer.spotify.com/web-api/).
@@ -17,11 +17,11 @@ By using this library you agree to Spotify's
 
 To install the library, simply
 
-`go get github.com/leonid-ed/spotify/v2`
+`go get github.com/zmb3/spotify/v2`
 
 ## Authentication
 
-Spotify uses OAuth2 for authentication and authorization.
+Spotify uses OAuth2 for authentication and authorization.  
 As of May 29, 2017 _all_ Web API endpoints require an access token.
 
 You can authenticate using a client credentials flow, but this does not provide
